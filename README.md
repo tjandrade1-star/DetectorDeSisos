@@ -97,4 +97,4 @@ As imagens radiográficas não são distribuídas neste repositório por questõ
 
 ---
 
-Desenvolvido por Thiago José Domingues de Andrade — Especialização em Informática em Saúde
+Desenvolvido por Thiago José Domingues de Andrade
