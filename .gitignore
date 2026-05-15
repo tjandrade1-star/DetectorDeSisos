@@ -1,0 +1,48 @@
+# ===========================================
+# 3MolarAI - .gitignore
+# ===========================================
+
+# --- Ambientes Virtuais Python ---
+venv_gpu/
+venv/
+.venv/
+env/
+
+# --- Build de Distribuição (gerado por fabricar_alpha.ps1) ---
+3MolarAI_ALPHA/
+
+# --- Cache Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Dataset: Imagens (pesadas e potencialmente sensíveis) ---
+dataset/images/
+dataset/unlabeled/
+
+# --- Cache YOLO ---
+dataset/labels/*.cache
+*.cache
+
+# --- Modelos Treinados (arquivos binários pesados, exceto best.pt) ---
+model/versions/modelo_v_*.pt
+runs/
+
+# --- Estado de Runtime (gerado automaticamente pelo app) ---
+accuracy.json
+settings.json
+output.txt
+
+# --- Logs ---
+*.log
+error.log
+import_error.log
+
+# --- IDEs e Ferramentas ---
+.vscode/
+.idea/
+*.suo
+*.user
+
+# --- Jupyter Notebooks (outputs e checkpoints) ---
+.ipynb_checkpoints/

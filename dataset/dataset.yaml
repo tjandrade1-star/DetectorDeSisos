@@ -1,0 +1,7 @@
+path: "C:\\Users\\thiag\\OneDrive\\\xC1rea de Trabalho\\especializa\xE7\xE3o\\3molarAI\\\
+  dataset"
+train: images/train
+val: images/train
+nc: 1
+names:
+  0: third_molar
