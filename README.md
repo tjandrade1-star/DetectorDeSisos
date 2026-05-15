@@ -95,6 +95,13 @@ As imagens radiográficas não são distribuídas neste repositório por questõ
 - [PyTorch](https://pytorch.org/) — inferência e treinamento (CPU/CUDA)
 - [OpenCV](https://opencv.org/) / [Pillow](https://python-pillow.org/) — processamento de imagens
 
+## Licença
+
+Este projeto está licenciado sob os seguintes termos:
+
+- **Código-fonte:** [GNU GPLv3](LICENSE)
+- **Conteúdo e Documentação:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ---
 
 Desenvolvido por Thiago José Domingues de Andrade
